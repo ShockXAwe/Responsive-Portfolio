@@ -293,3 +293,23 @@ input[type=text], select, textarea {
     border-style: hidden;
     border-radius: 30px 30px;
   }
+
+  @media screen and (max-width: 768px) {
+    ul {
+      _float: right;
+      _width: 50%;
+      _margin-right: 3%;
+    }
+    h1 {
+      _float: left;
+      _width: 50%;
+    }
+    #top {
+      _float: none;
+      _width: 100%;
+    }
+
+    .full{
+      width: initial;
+    }
+  }
