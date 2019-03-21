@@ -326,3 +326,36 @@ input[type=text], select, textarea {
       margin-left: 2.5%;
     }
   }
+
+  @media screen and (max-width: 640px) {
+    ul {
+      float: left;
+      _width: 50%;
+      margin-left: 20%;
+    }
+    h1 {
+      width: 100%;
+      text-align: center;
+    }
+    #top {
+      _float: none;
+      width: 610px;
+    }
+
+    .full{
+      width: 610px;
+    }
+
+    #main{
+      width: 610px;
+    }
+
+    .wrapper{
+      width: 610px;
+    }
+
+    footer {
+      width: 610px;
+      margin-left: 2.5%;
+    }
+  }
