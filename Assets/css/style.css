@@ -306,10 +306,23 @@ input[type=text], select, textarea {
     }
     #top {
       _float: none;
-      _width: 100%;
+      width: 715px;
     }
 
     .full{
-      width: initial;
+      width: 715px;
+    }
+
+    #main{
+      width: 715px;
+    }
+
+    .wrapper{
+      width: 715px;
+    }
+
+    footer {
+      width: 715px;
+      margin-left: 2.5%;
     }
   }
