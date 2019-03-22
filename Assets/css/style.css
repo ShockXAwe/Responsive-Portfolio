@@ -317,6 +317,10 @@ input[type=text], select, textarea {
       width: 715px;
     }
 
+    #main2{
+      width: 715px;
+    }
+
     .wrapper{
       width: 715px;
     }
@@ -324,6 +328,15 @@ input[type=text], select, textarea {
     footer {
       width: 715px;
       margin-left: 2.5%;
+    }
+
+    .pitem {
+      width: 200px;
+      height: 200px;
+      margin: 2em;
+      background-size: cover;
+      position: relative;
+      /* float: left; */
     }
   }
 
@@ -333,10 +346,23 @@ input[type=text], select, textarea {
       _width: 50%;
       margin-left: 20%;
     }
+
     h1 {
       width: 100%;
       text-align: center;
     }
+
+    #coffeeme{
+      width: 400px;
+      height: 400px;
+      padding-top: 15px;
+      padding-right: 15px;
+      padding-left: 15px;
+      padding-bottom: 10px;
+      margin-left: 10%;
+      float: none;
+    }
+
     #top {
       _float: none;
       width: 610px;
@@ -346,7 +372,11 @@ input[type=text], select, textarea {
       width: 610px;
     }
 
-    #main{
+    #main {
+      width: 610px;
+    }
+
+    #main2 {
       width: 610px;
     }
 
@@ -358,4 +388,14 @@ input[type=text], select, textarea {
       width: 610px;
       margin-left: 2.5%;
     }
+
+    .pitem {
+      width: 300px;
+      height: 300px;
+      margin: 2em;
+      background-size: cover;
+      position: relative;
+      /* float: left; */
+    }
+
   }
