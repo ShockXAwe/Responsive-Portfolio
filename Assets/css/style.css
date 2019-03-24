@@ -294,6 +294,109 @@ input[type=text], select, textarea {
     border-radius: 30px 30px;
   }
 
+
+  @media screen and (max-width: 980px){
+    #top {
+      _float: none;
+      width: 100%;
+    }
+
+    .full{
+      width: 100%;
+    }
+
+    #main{
+      width: 650px;
+      float: left;
+    }
+
+    #main2{
+      width: 715px;
+      float: left;
+    }
+
+    .wrapper{
+      width: 715px;
+      position: inherit
+    }
+
+    footer {
+      width: 715px;
+      margin-left: 2.5%;
+    }
+
+    .pitem {
+      width: 200px;
+      height: 200px;
+      margin: 2em;
+      background-size: cover;
+      position: relative;
+      /* float: left; */
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    ul {
+      float: left;
+      _width: 50%;
+      margin-left: 20%;
+    }
+
+    h1 {
+      width: 100%;
+      text-align: center;
+    }
+
+    #coffeeme{
+      width: 400px;
+      height: 400px;
+      padding-top: 15px;
+      padding-right: 15px;
+      padding-left: 15px;
+      padding-bottom: 10px;
+      margin-left: 10%;
+      float: none;
+    }
+
+    #top {
+      _float: none;
+      width: 610px;
+    }
+
+    .full{
+      width: 610px;
+    }
+
+    #main {
+      width: 610px;
+    }
+
+    #main2 {
+      width: 610px;
+    }
+
+    .wrapper{
+      width: 610px;
+    }
+
+    footer {
+      width: 610px;
+      margin-left: 2.5%;
+    }
+
+    .pitem {
+      width: 300px;
+      height: 300px;
+      margin: 2em;
+      background-size: cover;
+      position: relative;
+      /* float: left; */
+    }
+
+
+  }
+
+
   @media screen and (max-width: 768px) {
     ul {
       _float: right;
